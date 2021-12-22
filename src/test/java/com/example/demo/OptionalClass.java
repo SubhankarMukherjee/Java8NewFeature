@@ -168,7 +168,7 @@ Optional<String> optional= Optional.ofNullable("Hello Optional");
 //            emptyAction.run`();
 //        }
 //    }
-
+//
         //Optional<Student> studentOptional= Optional.ofNullable(StudentDB.studentSupplier.get());
         Optional<Student> studentOptional= Optional.ofNullable(null);
         Optional<String> bikeModel = studentOptional.filter(s -> s.getAge() == 20)// Optional Student-->Optional<bike>
